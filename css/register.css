@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+/* ----------Register------------------- */
+
+section {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #41246d; */
+    position: relative;
+    background-image: url(/pic/3.jpg);
+}
+
+form {
+    width: 80%;
+    height: 85%;
+
+    background-image: url(/pic/Screenshot\ \(46\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #cccccc83; */
+    margin-left: 130px;
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+    text-align: center;
+    
+       
+}
+
+
+
+section form .h2 {
+width: 200px;
+position: absolute;
+left: 440px;
+top: 50px;
+cursor:none;
+}
+section form .h2 h2 {
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-decoration-line: overline;
+    text-shadow: 10px 10px 10px black;
+
+
+}
+
+
+section form .home {
+
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+
+section form .home a{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bolder;
+
+}
+
+section form .home :hover {
+    color: darkorange;
+}
+
+section form .home a i {
+    color: #41246d;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+section form .username input {
+    padding: 10px 150px;
+    border-radius: 20px;
+    border: 1px solid #f0f3f6;
+    margin-top: 110px;
+    background-color: #f0f3f6;
+}
+
+section form .username input:active{
+    border: 1px solid #195a9b;
+    
+}
+
+section form .username i {
+    position: absolute;
+    left:330px;
+    top: 120px;
+    color: #41246d;
+    
+
+}
+
+section form .email input {
+    
+    padding: 10px 150px;
+    border-radius: 20px;
+    border: 1px solid  #f0f3f6;
+    margin-top: 30px;
+    background-color: #f0f3f6;
+
+
+
+}
+
+section form .email i {
+
+    position: absolute;
+    left:330px;
+    top: 188px;
+    color: #41246d;
+
+}
+
+
+section form .email input:valid{
+    background-color: #2abd36a4;
+
+}
+
+
+section form .password input {
+    
+    padding: 10px 150px;
+    border-radius: 20px;
+    border: 1px solid  #f0f3f6;
+    margin-top: 30px;
+    background-color: #f0f3f6;
+
+
+
+}
+
+
+section form .password i {
+
+    position: absolute;
+    left:330px;
+    top: 255px;
+    color: #41246d;
+
+
+}
+
+section form .password-ok input {
+    
+    padding: 10px 150px;
+    border-radius: 20px;
+    border: 1px solid  #f0f3f6;
+    margin-top: 30px;
+    background-color: #f0f3f6;
+
+
+
+}
+
+section form .password-ok i {
+
+    position: absolute;
+    left:330px;
+    top: 322px;
+    color: #41246d;
+
+
+}
+
+
+section form .checkbox {
+    display: flex;
+    margin-top: 20px;
+    color: #1f272e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    
+    position: absolute;
+    left: 370px;
+
+
+}
+
+section form .checkbox input {
+    margin-right: 10px;
+    
+
+}
+
+
+section form .submit input {
+    padding: 10px 100px;
+    border-radius: 20px;
+    border: 1px solid #41246d;
+    background-color: #41246d;
+    color: #ffff;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+section form .submit input:active {
+    color: black;
+    background-color: #00ff008e;
+}
+
+
+section form .did p {
+    padding-top: 20px;
+    color: #1f272e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold
+
+
+}

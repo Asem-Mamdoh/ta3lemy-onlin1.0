@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/*-------- header  -------- */
+
+header{
+    background-color: #41246d;
+    padding: 15px;
+    display: flex;
+    
+}
+
+header .frist {
+    width: 50%;
+}
+
+header .frist .a1 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 50px;
+    padding-left: 20px;
+
+    
+}
+header .frist .a1 i{
+    padding-right: 10px;
+}
+
+header .frist .a1:hover{
+    color: #f5b417;
+    font-weight: bolder;
+}
+
+
+ header .frist .a2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header .frist .a2 i{
+    padding-right: 10px;
+}
+
+
+header .frist .a2:hover{
+    color: #f5b417;
+    font-weight: bolder;
+}
+
+header .icons {
+display: flex;
+width: 50%;
+justify-content: right;
+padding-right: 30px;
+
+}
+
+
+
+header .icons a {
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+   
+}
+
+
+
+header .icons .facebook :hover {
+    color: #f5b417;
+    
+ }
+
+ header .icons .insta :hover {
+    color: #f5b417;
+    
+    
+ }
+
+ header .icons .x :hover {
+    color: #f5b417;
+    
+    
+ }
+
+ header .icons .youtube :hover {
+    color: #f5b417;
+
+    
+ }
+    /* -------------------------------------- */
+
+/* ------ Nav Bar -------- */
+nav {
+    position: relative;
+    display: flex;
+    box-shadow:  20px, 50px, 40px, 50px, red;
+
+}
+nav .titel {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+nav .titel h1{
+    color: #20201f;
+    padding-top: 30px;
+
+
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+nav .bar{
+    text-decoration: none;
+}
+nav .bar ul  {
+    
+ display: flex;
+ padding-left: 20px;
+
+ list-style-type: none;
+
+ 
+ 
+}
+
+nav .bar ul li {
+    font-size: 25px;
+    padding: 20px 30px;
+    padding-top: 25px; 
+      font-family: "Reem Kufi", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+
+
+}  
+
+
+
+
+nav .bar ul li a {
+    text-decoration: none;
+    color: #20201f;
+    
+}
+
+
+nav .bar ul li a:hover{
+    color:#f5b417;
+    font-weight: bolder;
+} 
+
+  
+nav img {
+
+    padding: 10px 20px;
+
+}
+
+nav .regest {
+
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+nav .regest .a1 {
+
+    background-color: #41246d;
+    padding: 10px 30px;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    border: #41246d;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 13px 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+
+}
+
+nav .regest  .a1:hover {
+    color: #41246d;
+    background-color: #ffffff;
+    border:1px solid #41246d ;
+    
+}
+
+
+
+nav .regest .a2 {
+background-color: #f5b417;
+padding: 10px 40px;
+border-radius: 40px;
+color: rgb(255, 255, 255);
+border: solid 1px #f5b417;
+font-weight: bolder;
+padding: 13px 30px;
+margin-left: 20px;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+
+    
+}
+nav .regest .a2:hover{
+    color: #f5b417;
+    background-color: white;
+    border: #f5b417 solid 1px;
+    
+}
+
+    
+
+
+
+
+
+/* ----------------------------------------------- */
+
+
+
+
+/* <!------------ BACKGROUND------- --> */
+
+.background {
+    width: 100%;
+    height: 250px;
+    background-image: url(/pic/pexels-photo-310452.webp);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.background h2 {
+    font-size: 2.1rem;
+    padding-top: 70px;
+    text-align: center;
+}

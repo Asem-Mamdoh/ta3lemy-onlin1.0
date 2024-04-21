@@ -10,7 +10,8 @@ header{
     background-color: #41246d;
     padding: 15px;
     display: flex;
-    /* width: 100%; */
+
+
     
 }
 
@@ -276,6 +277,7 @@ nav .regest .a2:hover{
     z-index: 55;
     background-color: #ab7cf14f;
     height: 100vh;
+    width: 100%;
     background-image: url(/pic/5166347.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -470,7 +472,7 @@ nav .regest .a2:hover{
 .section1 .all-divs  {
 /* background-color: #0400e2; */
 height: 100%;
-width: 97%;
+/* width: 100%; */
 display: flex;
 margin-left: 20px;
 
@@ -769,3 +771,350 @@ footer .pra2 .p2 a:hover {
 /* ================================== */
 
 
+
+
+/* <!------------- MEDIA Query --------------> */
+
+    /*-----------PHONE---------------  */
+
+
+@media (max-width:600px) {
+
+
+
+    /* -------------HEADER----------------- */
+
+    header {
+        display: flex;
+        margin: 0px;
+
+    }
+
+    header .frist {
+        /* background-color: rgb(208, 255, 0); */
+        flex-wrap: wrap;
+        width: 180px;
+        padding:0px 20px;
+        
+        
+    }
+
+    header .frist .a1, header .frist .a2 {
+        padding-left: 0px;
+        float: left;
+        padding: 3px 0px;
+        
+    }
+
+    header .icons {
+        justify-content: center;
+        /* background-color: aqua; */
+
+
+        
+    }
+
+    header .icons a{
+        padding-top: 13px;
+       
+        
+    }
+
+
+    /* ======================================= */
+
+
+
+
+
+    /* <-------------------- NAV -------------------> */
+
+    nav{
+        /* background-color: blue ; */
+        display: grid;
+
+        
+
+
+    }
+
+    nav .titel {
+        /* background-color: red; */
+        flex-wrap: wrap;
+        display: none;
+        padding: 0px;
+        height: 70px;
+        width: fit-content;
+    }
+
+    nav .bar {
+        
+        flex-wrap: wrap;
+        /* background-color: brown; */
+        width: 100% ;
+
+
+    }
+
+    nav .bar ul li {
+        padding: 10px;
+        
+    }
+    
+
+
+    nav .regest {
+        margin: auto;
+        /* background-color: aqua; */
+        padding: 10px 10px;
+        width: fit-content;
+
+        
+    }
+
+    nav .regest .a1 {
+        margin: auto;
+        margin-right:30px ;
+    }
+
+    nav .regest .a2 {
+        margin:auto;
+    }
+
+
+    /* ========================================== */
+
+
+
+    /* <-- ------------BACKGROUND------------------ --> */
+
+
+    .back-gr{
+        
+
+
+
+    } 
+
+    .back-gr .h3 {
+        /* background-color: aqua; */
+        width: 350px;
+        position: relative;
+        left: 20px;
+
+
+    }
+
+    .back-gr .h3 h2 {
+        float: left;
+        text-align: start;
+        font-size:45px;
+        
+        
+    }
+
+    .back-gr .h3 span {
+        font-size: 60px;
+        
+    }
+
+    .back-gr .p {
+        /* background-color: aqua; */
+        width: 350px;
+        position: relative;
+        left: 40px;
+    }
+
+
+    .back-gr .about {
+        margin-left: 110px;
+    }
+
+
+    .back-gr .icon a{
+        margin: 0%;
+        margin-left: 150px;
+    }
+
+    /* =============================================== */
+
+
+
+
+        /* -------------- SECTION 1 OR MAIN -------------- */
+
+
+        .section1 {
+            /* display: none; */
+        }
+
+    .section1 .all-divs {
+        
+        /* background-color: blue; */
+        margin: 0;
+        padding: 0;
+        /* width: 100%; */
+        display: grid;
+        
+        
+        
+    }
+    .section1 .all-divs .plan {
+        flex-direction: column;
+        width: 100%;
+        
+
+
+
+    }
+
+
+    .section1 .all-divs .plan .online {
+        flex-direction: column;
+        /* background-color: #ff0000; */
+        width: 100%;
+
+
+    }
+
+    .section1 .all-divs .plan .online .map1 {
+        width: 95%;
+
+        margin: 0%;
+       
+
+    }
+    .section1 .all-divs .plan .online .map1:hover {
+        scale: 0.9;
+    }
+
+    .section1 .all-divs .plan .online .map2 {
+        width: 95%;
+
+        position: relative;
+        left: 0;
+        top: 7px;
+        margin: 0%;
+        
+
+    }
+
+    .section1 .all-divs .plan .online .map2:hover {
+        scale: 0.9;
+    }
+
+    .section1 .all-divs .plan .online .map3 {
+        width: 95%;
+
+
+        position: relative;
+        left: 0;
+        top: 14px;
+
+        margin: 0%;
+
+    }
+
+    .section1 .all-divs .plan .online .map3:hover {
+        scale: 0.9;
+    }
+
+    .section1 .all-divs .plan .online .map4 {
+        width: 95%;
+        position: relative;
+        left: 0;
+        top: 22px;
+
+        margin: 0%;
+
+    }
+
+    .section1 .all-divs .plan .online .map4:hover {
+        scale: 0.9;
+    }
+
+
+
+
+
+    .section1 .all-divs .explan {
+        padding-left: 0px;
+        /* background-color: blue; */
+        margin-top: 50px;
+        margin-bottom: 0%;
+        width: 100%;
+        /* background-color: blueviolet; */
+    }
+
+
+    .section1 .all-divs  .explan .ex .p1 {
+        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-left: 30px;
+
+        width: 350px;
+
+    }
+
+    .section1 .all-divs .explan .ex h2{
+        /* background-color: #33ff00; */
+        padding-bottom: 20px;
+        padding-left: 30px;
+
+        width: 350px;
+    }
+
+    .section1 .all-divs .explan .ex .p2{
+        padding-bottom: 10px;
+        padding-left: 30px;
+        width: 300px;
+
+    }
+
+
+    .section1 .up a{
+        position: fixed;
+        right: 10px;
+    }
+
+/* ======================================== */
+
+/* ----------FOOTER-------------------- */
+
+
+footer{
+
+    margin: 0%;
+    padding: 0px;
+    position: relative;
+    top: 850px;
+    /* background-color: blue; */
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+
+
+footer .pra1 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+footer .pra2 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+footer .pra1 p {
+    padding: 5px 0;
+}
+
+
+footer .pra2 p {
+    padding: 5px 0;
+}
+
+
+
+}

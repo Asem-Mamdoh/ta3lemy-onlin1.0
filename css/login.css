@@ -236,3 +236,108 @@ margin-bottom: 20px;
     color: #41a3ff;
     background-color: #5c0c0c;
 }
+
+/* ====================================== */
+
+
+/* <!------------- MEDIA Query ---------> */
+
+/* ----------PHONE----------- */
+
+
+
+@media (max-width:600px) {
+
+
+
+    .section .back {
+        width: 50px;
+        height: auto;
+        
+     }
+    
+     .section .back a i {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    
+    
+    .section .div-center {
+        width: 90%;
+        /* height: 200px; */
+        margin-left: 20px;
+        position: relative;
+        top: 0;
+        
+    
+    }
+    
+    
+    .section .div-center .div-flex {
+        
+        width: 701px;
+        height: 200px;
+    
+    }
+    
+    .section .div-center .div1 {
+        display: none;
+        /* border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px; */
+    }
+    
+    /* .section .div-center .div1 .wel {
+        margin-top: 10px;
+        margin-left: 20px;
+    
+    
+    } */
+    
+    .section .div-center .div2 {
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 0px;
+        /* background-color: brown; */
+        
+    }
+    
+    .section .div-center .div2 .text {
+        margin-left: 40px;
+    }
+    
+    
+    .section .div-center .div2 .input {
+    
+        margin-left: 0px;
+        margin-top: 50px;
+    
+    }
+    
+    .section .div-center .div2 .input .user input {
+        margin-left: 40px;
+        width: 250px;
+        padding-top: 10px;
+    
+    }
+    
+    
+    .section .div-center .div2 .input .password input {
+        margin-left: 40px;
+        width: 250px;
+        padding-top: 10px;
+    
+    }
+    
+    .section .div-center .div2 .check {
+        margin-left: 40px;
+        
+    }
+    
+    
+    .section .div-center .div2 .supmit {
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    
+
+    
+}

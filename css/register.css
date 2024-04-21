@@ -10,7 +10,7 @@ section {
     width: 100%;
     height: 100vh;
     /* background-color: #41246d; */
-    position: relative;
+    position: relataive;
     background-image: url(/pic/3.jpg);
 }
 
@@ -200,7 +200,6 @@ section form .submit input {
     border: 1px solid #41246d;
     background-color: #41246d;
     color: #ffff;
-    margin-top: 30px;
     cursor: pointer;
     margin-top: 40px;
 
@@ -219,3 +218,124 @@ section form .did p {
 
 
 }
+
+
+
+
+
+
+
+/* <!-------------- MEDIA Query ----------------> */
+
+    /*-----------PHONE---------------  */
+
+@media (max-width:600px) {
+
+    form {
+        position: absolute;
+        margin-left: 37px;
+    }
+    
+    
+    
+    section form .h2 {
+    
+        left: 55px;
+    
+    }
+    
+    section form .home {
+    position: absolute;
+        left: 0;
+        top: 0;
+        /* background-color: aqua; */
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    
+    section form .home a i {
+        font-size: 35px ;
+        
+    }
+    
+    
+    
+    section form .username input {
+        padding: 10px 30px;
+    
+    }
+    
+    section form .username i {
+        left: 50px;
+    }
+    
+    
+    section form .email input {
+        padding: 10px 30px;
+    
+    }
+    
+    section form .email i {
+        left: 50px;
+    
+    
+    }
+    
+    
+    
+    section form .password input {
+        padding: 10px 30px;
+    
+    }
+    
+    
+    section form .password i {
+        left: 50px;
+    
+    }
+    
+    
+    section form .password-ok input {
+        padding: 10px 30px;
+    
+    }
+    
+    section form .password-ok i {
+        left: 50px;
+    
+    }
+    
+    
+    
+    section form .checkbox {
+        /* background-color: brown; */
+        /* width: 220px; */
+        
+        position: absolute;
+        left: 50px;
+    
+    }
+    
+    
+    section form .checkbox input {
+        margin-right: 0px;
+        
+    }
+    
+    section form .checkbox p {
+        width: 200px;
+    }
+    
+    section form .submit input {
+        padding: 10px 50px;
+        margin-top: 80px;
+    
+    }
+    
+    
+    
+    
+    }

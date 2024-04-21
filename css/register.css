@@ -11,14 +11,14 @@ section {
     height: 100vh;
     /* background-color: #41246d; */
     position: relataive;
-    background-image: url(/pic/3.jpg);
+    background-image: url(../pic/3.jpg);
 }
 
 form {
     width: 80%;
     height: 85%;
 
-    background-image: url(/pic/Screenshot\ \(46\).png);
+    background-image: url(../pic/Screenshot46.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

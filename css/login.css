@@ -50,7 +50,7 @@
     width: 50%;
     height: 100%;
     /* background-color: #13a01f; */
-    background-image: url(/pic/pexels.jpg);
+    background-image: url(../pic/pexels.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: repeat;

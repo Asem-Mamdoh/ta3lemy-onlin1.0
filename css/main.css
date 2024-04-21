@@ -278,7 +278,7 @@ nav .regest .a2:hover{
     background-color: #ab7cf14f;
     height: 100vh;
     width: 100%;
-    background-image: url(/pic/5166347.jpg);
+    background-image: url(../pic/5166347.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -312,7 +312,6 @@ nav .regest .a2:hover{
     width: 35px;
     height: 43px;
     text-align: center;
-
     animation-name: up;
     animation-duration: 2s;
     animation-delay: 0.5;

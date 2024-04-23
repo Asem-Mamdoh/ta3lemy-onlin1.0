@@ -98,174 +98,150 @@ header .icons .facebook :hover {
  }
     /* -------------------------------------- */
 
-/* ------ Nav Bar -------- */
+        /* ------ Nav Bar -------- */
+
 nav {
-    position: relative;
+    background-color: #fff;
     display: flex;
-    box-shadow:  20px, 50px, 40px, 50px, red;
-    /* display: inline-flex; */
-    background-color: #ffffff;
-    width: 100%;
-
-
+    font-family:sans-serif ;
 }
+
 nav .titel {
-    padding-top: 15px;
-    padding-left: 20px;
-}
-
-nav .titel h1{
-    color: #20201f;
-    padding-top: 30px;
-
-
-  font-family: "Teko", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-
-}
-
-nav .bar{
-    text-decoration: none;
-}
-nav .bar ul  {
+    padding: 5px 25px;
+    margin-right: 50px;
+    /* background-color: #00e200; */
     
- /* display: flex; */
- padding-left: 20px;
+}
 
- list-style-type: none;
+nav .bar {
+    margin-right: 100px;
+    margin-left: 30px;
+}
+nav .bar ul {
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
 
- 
- 
 }
 
 nav .bar ul li {
-    position: relative;
     display: inline-block;
-    z-index: 1;
-    font-size: 25px;
-    padding: 20px 30px;
-    padding-top: 25px; 
-      font-family: "Reem Kufi", sans-serif;
-      /* font-optical-sizing: auto; */
-      font-weight: weight;
-      font-style: normal;
-
-
-}  
-
-
-
+    position: relative;
+}
 
 nav .bar ul li a {
+    display: block;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: #3a3a39;
     text-decoration: none;
-    color: #20201f;
-    display: block;
-    
+    text-align: center;
 }
 
-nav .bar ul li .dropdown {
-    width: 100%;
-    background-color: #00e200;
+nav .bar ul li ul.dropdown1 li {
+    display: block;
+    background-color: #fff;
+    margin: 2px 0;
+}
+
+nav .bar ul li ul.dropdown1 {
+    display: none;
+    background-color: #f5b417;
     position: absolute;
-    z-index: 999;
-    display: none;
-
+    z-index: 9999;
 }
-
-nav .bar ul li .dropdown li{
-    display: none;
-}
-
-nav .bar ul li a:hover .dropdown {
-    display: block;
-    
-
-}
-
-
 
 nav .bar ul li a:hover{
-    color:#f5b417;
-    font-weight: bolder;
-} 
-
-  
-nav img {
-
-    padding: 10px 20px;
-
+    background-color: #f5b417;
 }
 
+nav .bar ul li:hover ul.dropdown1 {
+    display: block;
+}
+
+nav .bar ul li ul.dropdown2 li {
+    display: block;
+    background-color: #fff;
+    margin: 2px 0;
+}
+
+nav .bar ul li ul.dropdown2 {
+    display: none;
+    background-color: #f5b417;
+    position: absolute;
+    z-index: 9999;
+}
+
+
+nav .bar ul li:hover ul.dropdown2 {
+    display: block;
+}
+
+nav ul li .dropdown3 li {
+    display: block;
+    background-color: #fff;
+    margin: 2px 0;
+}
+
+nav ul li ul.dropdown3 {
+    display: none;
+    background-color: #f5b417;
+    position: absolute;
+    z-index: 9999;
+}
+
+nav ul li:hover ul.dropdown3 {
+    display: block;
+}
+
+
 nav .regest {
+    padding: 0px 10px;
+    align-content: center;
 
-
- 
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 50px;
-   
+    
     
 }
 
 nav .regest .a1 {
-
-    height: fit-content;
-    background-color: #41246d;
-    border-radius: 40px;
-    color: #ffffff;
-    border: #41246d;
-    font-weight: bold;
-    margin-top: 25px;
-    margin-right: 10px;
+    background-color:#41246d;
+    color: #fff;
+    margin: 0 10px;
     padding: 13px 30px;
-
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    
-
+    border-radius: 80px;
+    font-family: sans-serif;
+    text-align: center;
 }
 
-nav .regest  .a1:hover {
+nav .regest .a1:hover {
     color: #41246d;
-    background-color: #ffffff;
-    border:1px solid #41246d ;
-    
+    background-color: #fff;
+    border: 1px solid #41246d;
+    font-weight: bold;
+    font-family: sans-serif;
 }
-
-
 
 nav .regest .a2 {
-    
-    height: fit-content;
-background-color: #f5b417;
-border-radius: 40px;
-color: rgb(255, 255, 255);
-border: solid 1px #f5b417;
-font-weight: bolder;
-padding: 13px 30px;
-margin-top: 25px;
-text-decoration: none;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    background-color: #f5b417;
+    color: #fff;
+    margin: 0 10px;
+    padding: 15px 30px;
+    border-radius: 80px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
 
-
-    
 }
-nav .regest .a2:hover{
+
+nav .regest .a2:hover {
     color: #f5b417;
-    background-color: white;
-    border: #f5b417 solid 1px;
-    
+    background-color: #fff;
+    border: 1px solid #f5b417;
+    font-weight: bold;
+    font-family: sans-serif;
 }
-
-    
-
-
-
-
-
-/* ----------------------------------------------- */
 
 
 /* -----------Background-------- */
@@ -465,7 +441,7 @@ nav .regest .a2:hover{
 .section1 {
     width: 100%;
     height: 120vh;
-    /* background-color: #00e200; */
+    background-color: #ffffff;
 }
 
 .section1 .all-divs  {
@@ -705,6 +681,7 @@ footer {
     padding-top: 100px;
     display: flex;
     padding-bottom: 100px;
+
 }
 
 footer .pra1 {
@@ -739,6 +716,7 @@ footer .pra2{
 footer .pra2 {
     color: #ffffff;
     line-height: 30px;
+
 }
 
 footer .pra2 p {

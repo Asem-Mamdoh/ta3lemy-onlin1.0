@@ -887,9 +887,34 @@ footer .pra2 .p2 a:hover {
         width: 90%;
         text-align: center;
         font-size:35px;
+        padding-left:20px;
         
+    animation-name: asem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+
         
     }
+
+
+@keyframes asem {
+    0%{
+        translate: 0 0;
+      }
+
+    50%{
+        translate: 0 -50px;
+        
+    }
+
+    100%{
+        translate: 0 0;
+    }
+
+}
+
+
 
     .back-gr .h3 span {
         font-size: 50px;
@@ -906,13 +931,13 @@ footer .pra2 .p2 a:hover {
 
 
     .back-gr .about {
-        margin-left: 85px;
+        margin-left: 110px;
     }
 
 
     .back-gr .icon a{
         margin: 0%;
-        margin-left: 120px;
+        margin-left: 135px;
     }
 
     /* =============================================== */
@@ -1022,7 +1047,7 @@ footer .pra2 .p2 a:hover {
         padding: 0%;
         margin-top: 50px;
         margin-bottom: 0%;
-        width: 90%;
+        width: 100%;
     }
 
     .section1 .all-divs .explan .ex{
@@ -1046,7 +1071,7 @@ footer .pra2 .p2 a:hover {
         /* background-color: #33ff00; */
         padding: 0%;
         /* padding-bottom: 20px; */
-        padding-left: 0px;
+        padding-left: 20px;
         text-align: left;
         width: 90%;
     }

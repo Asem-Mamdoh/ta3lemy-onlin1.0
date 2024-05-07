@@ -812,6 +812,7 @@ footer .pra2 .p2 a:hover {
         justify-content: center;
 
 
+
     }
 
     nav .titel {
@@ -873,9 +874,10 @@ footer .pra2 .p2 a:hover {
 
     .back-gr .h3 {
         /* background-color: aqua; */
-        width: 350px;
+        width: 100%;
         position: relative;
-        left: 10px;
+        left: 0px;
+        text-align: center;
  
 
 
@@ -884,32 +886,33 @@ footer .pra2 .p2 a:hover {
     .back-gr .h3 h2 {
         width: 90%;
         text-align: center;
-        font-size:42px;
+        font-size:35px;
         
         
     }
 
     .back-gr .h3 span {
-        font-size: 58px;
+        font-size: 50px;
         
     }
 
     .back-gr .p {
         /* background-color: aqua; */
-        width: 340px;
+        width: 100%;
         position: relative;
-        left: 15px;
+        text-align: center;
+        left: 0px;
     }
 
 
     .back-gr .about {
-        margin-left: 105px;
+        margin-left: 85px;
     }
 
 
     .back-gr .icon a{
         margin: 0%;
-        margin-left: 140px;
+        margin-left: 120px;
     }
 
     /* =============================================== */
@@ -1019,7 +1022,7 @@ footer .pra2 .p2 a:hover {
         padding: 0%;
         margin-top: 50px;
         margin-bottom: 0%;
-        width: 95%;
+        width: 90%;
     }
 
     .section1 .all-divs .explan .ex{
@@ -1035,17 +1038,17 @@ footer .pra2 .p2 a:hover {
         padding-top: 30px;
         padding-left: 20px;
 
-        width: 340px;
+        width: 200px;
 
     }
 
     .section1 .all-divs .explan .ex h2{
         /* background-color: #33ff00; */
         padding: 0%;
-        padding-bottom: 20px;
-        padding-left: 20px;
+        /* padding-bottom: 20px; */
+        padding-left: 0px;
         text-align: left;
-        width: 340px;
+        width: 90%;
     }
 
     .section1 .all-divs .explan .ex .p2{
@@ -1590,10 +1593,7 @@ nav .bar ul{
     grid-template-columns: repeat(4, 1fr);
 }
 
-nav .bar ul li{
-    /* background-color: #f5b417; */
-    
-}
+
     
 nav .bar ul li a{
     font-size: 18px;

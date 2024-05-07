@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/*-------- header  -------- */
+
+header{
+    background-color: #41246d;
+    padding: 15px;
+    display: flex;
+
+
+    
+}
+
+header .frist {
+    width: 50%;
+}
+
+header .frist .a1 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 50px;
+    padding-left: 20px;
+
+    
+}
+header .frist .a1 i{
+    padding-right: 10px;
+}
+
+header .frist .a1:hover{
+    color: #f5b417;
+    font-weight: bolder;
+}
+
+
+ header .frist .a2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header .frist .a2 i{
+    padding-right: 10px;
+}
+
+
+header .frist .a2:hover{
+    color: #f5b417;
+    font-weight: bolder;
+}
+
+header .icons {
+display: flex;
+width: 50%;
+justify-content: right;
+padding-right: 30px;
+
+}
+
+
+
+header .icons a {
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+   
+}
+
+
+
+header .icons .facebook :hover {
+    color: #f5b417;
+    
+ }
+
+ header .icons .insta :hover {
+    color: #f5b417;
+    
+    
+ }
+
+ header .icons .x :hover {
+    color: #f5b417;
+    
+    
+ }
+
+ header .icons .youtube :hover {
+    color: #f5b417;
+
+    
+ }
+    /* -------------------------------------- */
+
+        /* ------ Nav Bar -------- */
+
+nav {
+    /* background-color: #00e200; */
+    display: flex;
+    font-family:sans-serif ;
+}
+
+nav .titel {
+    padding: 5px 25px;
+    margin-right: 50px;
+    
+}
+
+nav .bar {
+    margin-right: 100px;
+    margin-left: 30px;
+}
+nav .bar ul {
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+
+}
+
+nav .bar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav .bar ul li a {
+    display: block;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: #3a3a39;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav .bar ul li ul.dropdown1 li {
+    display: block;
+    background-color: #fff;
+    margin: 2px 0;
+}
+
+nav .bar ul li ul.dropdown1 {
+    display: none;
+    background-color: #f5b417;
+    position: absolute;
+    z-index: 9999;
+}
+
+nav .bar ul li a:hover{
+    background-color: #f5b417;
+}
+
+nav .bar ul li:hover ul.dropdown1 {
+    display: block;
+}
+
+nav .bar ul li ul.dropdown2 li {
+    display: block;
+    background-color: #fff;
+    margin: 2px 0;
+}
+
+nav .bar ul li ul.dropdown2 {
+    display: none;
+    background-color: #f5b417;
+    position: absolute;
+    z-index: 9999;
+}
+
+
+nav .bar ul li:hover ul.dropdown2 {
+    display: block;
+}
+
+nav ul li .dropdown3 li {
+    display: block;
+    background-color: #fff;
+    margin: 2px 0;
+}
+
+nav ul li ul.dropdown3 {
+    display: none;
+    background-color: #f5b417;
+    position: absolute;
+    z-index: 9999;
+}
+
+nav ul li:hover ul.dropdown3 {
+    display: block;
+}
+
+
+nav .regest {
+    padding: 0px 10px;
+    align-content: center;
+
+    
+    
+}
+
+nav .regest .a1 {
+    background-color:#41246d;
+    color: #fff;
+    margin: 0 10px;
+    padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 80px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav .regest .a1:hover {
+    color: #41246d;
+    background-color: #fff;
+    border: 1px solid #41246d;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav .regest .a2 {
+    background-color: #f5b417;
+    color: #fff;
+    margin: 0 10px;
+    padding: 15px 30px;
+    border-radius: 80px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+nav .regest .a2:hover {
+    color: #f5b417;
+    background-color: #fff;
+    border: 1px solid #f5b417;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* ========================================= */
+
+
+
+/* -------------- MAIN CONTENT --------------- */
+
+
+
+main {
+    /* background-image: linear-gradient(to bottom, #2d0075,  transparent); */
+    background-image: url(../pic/backback9.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-origin:border-box ;
+    background-size: contain;
+    
+
+
+}
+main .all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+    /* background-color: #0aa712; */
+}
+
+
+
+
+main .head1 {
+    
+    /* background-color: #f5b417; */
+    justify-content: center;
+    display: flex;
+
+
+}
+
+main .head1 h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    background-color: #f5b417;
+    border-radius: 20px;
+    padding: 20px 25px;
+    text-align: center;
+    color: #ffffff;
+    animation-name: First-semester; 
+    animation-duration: 1s;
+    animation-iteration-count: infinite;   
+
+}
+
+@keyframes First-semester {
+    0%{
+        scale:01;
+    }
+
+    50%{
+        scale :1.1;
+    }
+
+    100%{
+        scale:1;
+    }
+}
+
+main .all .ifram {
+    grid-column: 1/-1;
+}
+
+main .all div {
+    display: block;
+    text-align: center;
+}
+
+main .all div img{
+    width: 250px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+main .all div a.download {
+    display: inline-block;
+    background-color: #f5b417;
+    margin: 20px 0px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
+main .all div a.watch {
+    display: inline-block;
+    background-color: #41246d;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
+main .all .head2 {
+    display: inline-flex;
+    grid-column: 1/-1;
+    margin-top: 100px;
+    /* background-color: #41246d; */
+    justify-content: center;
+
+}
+
+main .all .head2 h2{
+
+border-radius: 20px;
+
+
+margin-bottom: 50px;
+font-size: 40px;
+letter-spacing: 10px;
+font-weight: bold;
+background-color: #f5b417;
+padding: 20px 25px;
+text-align: center;
+color: #ffffff;
+animation-name: Second-semester; 
+animation-duration: 1s;
+animation-iteration-count: infinite;   
+}
+
+@keyframes Second-semester {
+    0%{
+        scale:01;
+    }
+
+    50%{
+        scale :1.1;
+    }
+
+    100%{
+        scale:1;
+    }
+}
+
+

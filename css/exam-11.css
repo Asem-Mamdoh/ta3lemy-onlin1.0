@@ -441,3 +441,413 @@ main .all .head1-1 h2{
         color: #ffffff;
     
         }
+
+
+        
+
+@media (min-width:320px) and (max-width:518px) {
+
+
+    /* -------------HEADER----------------- */
+
+    header {
+        display: flex;
+        margin: 0px;
+
+    }
+
+    header .frist {
+        /* background-color: rgb(208, 255, 0); */
+        flex-wrap: wrap;
+        width: 180px;
+        padding:0px 20px;
+        
+        
+    }
+
+    header .frist .a1, header .frist .a2 {
+        padding-left: 0px;
+        float: left;
+        padding: 3px 0px;
+        
+    }
+
+    header .icons {
+        justify-content: center;
+        /* background-color: aqua; */
+
+
+        
+    }
+
+    header .icons a{
+        padding-top: 13px;
+        
+    }
+
+
+    /* ======================================= */
+
+
+/* <-------------------- NAV -------------------> */
+
+nav{
+        /* background-color: blue ; */
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+
+
+
+    }
+
+nav .titel {
+        /* background-color: red; */
+        flex-wrap: wrap;
+        display: none;
+        padding: 0px;
+        height: 70px;
+        width: fit-content;
+    }
+
+nav .bar {
+        
+        flex-wrap: wrap;
+        /* background-color: brown; */
+        width: 100% ;
+        padding: 0%;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+
+nav .bar ul{
+        padding: 0%;
+        width: 100%;
+      
+        margin-bottom: 20px;
+
+    }
+
+nav .bar ul li a{
+        /* padding: 10px; */
+        font-size: 22px;
+        
+    }
+    
+
+    
+nav .regest {
+        margin: auto;
+        /* background-color: aqua; */
+        padding: 10px 10px;
+        width: fit-content;
+        margin-bottom: 20px;
+
+        
+    }
+
+
+
+/* ========================================== */
+
+
+
+/* <!-- ---------- BACKGROUND ---------------- --> */
+
+.back .head1 h2{
+    font-size: 20px;
+}
+
+.back .all {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+
+.back .all .head1-1 h2{
+    font-size: 20px;
+
+}
+
+.back .all .head2 h2 {
+    letter-spacing: 7px;
+    font-size: 20px;
+    padding: 0%;
+    padding: 20px 20px;
+}
+
+
+.back .all .head2-2 h2 {
+    letter-spacing: 7px;
+    font-size: 20px;
+    padding: 0%;
+    padding: 20px 20px;
+}
+
+}
+
+
+
+
+
+
+@media (min-width:519px) and (max-width:768px) {
+
+
+
+/* <-------------------- NAV -------------------> */
+
+nav{
+    /* background-color: blue ; */
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+
+}
+
+nav .titel {
+    /* background-color: red; */
+    flex-wrap: wrap;
+    display: none;
+    padding: 0px;
+    height: 70px;
+    width: fit-content;
+}
+
+nav .bar {
+    
+    flex-wrap: wrap;
+    /* background-color: brown; */
+    width: 100% ;
+    padding: 0%;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+}
+
+nav .bar ul{
+    padding: 0%;
+    width: 100%;
+  
+    margin-bottom: 20px;
+
+}
+
+nav .bar ul li a{
+    /* padding: 10px; */
+    font-size: 22px;
+    
+}
+
+
+
+nav .regest {
+    margin: auto;
+    /* background-color: aqua; */
+    padding: 10px 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+
+    
+}
+
+
+
+/* ========================================== */
+
+
+
+/* <!-- ---------- BACKGROUND ---------------- --> */
+
+
+.back .head1 h2{
+font-size: 20px;
+}
+
+.back .all {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+.back .head1-1 h2{
+    font-size: 20px;
+}
+    
+
+.back .all .head2 h2 {
+    letter-spacing: 7px;
+    font-size: 20px;
+    padding: 0%;
+    padding: 20px 20px;
+}
+
+.back .all .head2-2 h2 {
+    letter-spacing: 7px;
+    font-size: 25px;
+    padding: 0%;
+    padding: 20px 20px;
+}
+
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+
+
+
+/* <-------------------- NAV -------------------> */
+
+nav{
+    /* background-color: blue ; */
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+
+
+
+}
+
+nav .titel {
+    /* background-color: red; */
+    flex-wrap: wrap;
+    display: none;
+    padding: 0px;
+    height: 70px;
+    width: fit-content;
+}
+
+nav .bar {
+    
+    flex-wrap: wrap;
+    /* background-color: brown; */
+    width: 100% ;
+    padding: 0%;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+}
+
+nav .bar ul{
+    padding: 0%;
+    width: 100%;
+  
+    margin-bottom: 20px;
+
+}
+
+nav .bar ul li a{
+    /* padding: 10px; */
+    font-size: 22px;
+    
+}
+
+
+
+nav .regest {
+    margin: auto;
+    /* background-color: aqua; */
+    padding: 10px 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+
+    
+}
+
+
+
+/* ========================================== */
+
+
+/* <!-- ---------- BACKGROUND ---------------- --> */
+
+    
+.back .all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.back .all .head2 h2 {
+    letter-spacing: 7px;
+    font-size: 20px;
+    padding: 0%;
+    padding: 20px 20px;
+}
+
+
+
+}
+
+
+@media (min-width:1025px) and (max-width:1265px){
+
+/* <-------------------- NAV -------------------> */
+
+nav{
+    /* background-color: blue ; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    /* background-color: #3a3a39; */
+    padding: 10px 0;
+
+
+
+}
+
+nav .titel {
+    /* background-color: red; */
+    flex-wrap: wrap;
+    display: none;
+    padding: 0px;
+    height: 70px;
+    width: fit-content;
+}
+
+nav .bar {
+    
+    flex-wrap: wrap;
+    /* background-color: brown; */
+    width: 100% ;
+    padding: 0%;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(, auto);
+    justify-content: center; */
+}
+
+nav .bar ul{
+    padding: 0%;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+nav .bar ul li a{
+    /* padding: 10px; */
+    font-size: 22px;
+    
+}
+
+
+
+nav .regest {
+    margin: auto;
+    /* background-color: aqua; */
+    padding: 10px 10px;
+    width: fit-content;
+    /* margin-bottom: 20px; */
+
+    
+}
+
+
+
+/* ========================================== */
+}
